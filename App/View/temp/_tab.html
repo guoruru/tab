@@ -1,0 +1,123 @@
+<div class="wrap-wrapper">
+    <div class="header">
+        <a ng-href="#/tab1">全部</a>
+        <a ng-href="#/tab2">支出</a>
+        <i class="icon iconfont icon-fangdajing"></i>
+    </div>
+    <div class="section">
+        <div class="swiper-container container">
+            <div class="swiper-wrapper wrapper">
+                <div class="swiper-slide slide"><img src="Content/img/banner.gif"></div>
+                <div class="swiper-slide slide"><img src="Content/img/banner.gif"></div>
+                <div class="swiper-slide slide"><img src="Content/img/banner.gif"></div>
+                <div class="swiper-slide slide"><img src="Content/img/banner.gif"></div>
+            </div>
+            <div class="swiper-pagination pagination"></div>
+        </div>
+        <ul class="list">
+            <li><span><i class="icon iconfont icon-youxiang"></i></span><strong>车商城</strong></li>
+            <li><span><i class="icon iconfont icon-weixin"></i></span><strong>车商城</strong></li>
+            <li><span><i class="icon iconfont icon-taobao"></i></span><strong>车商城</strong></li>
+            <li><span><i class="icon iconfont icon-xinlang"></i></span><strong>车商城</strong></li>
+        </ul>
+        <div class="box">
+            <h1>
+                <img src="Content/img/bg.gif">
+                <p>保养预约68折 爱车浪漫够</p>
+                <strong>约</strong>
+            </h1>
+        </div>
+        <h1 class="title">车主服务</h1>
+        <ul class="icon-list">
+            <li><i class="icon iconfont icon-tianmao1"></i><span>油卡充值</span></li>
+            <li><i class="icon iconfont icon-50"></i><span>低价保险</span></li>
+            <li><i class="icon iconfont icon-25"></i><span>4s店保养</span></li>
+            <li><i class="icon iconfont icon-pengyouquan"></i><span>品质轮胎</span></li>
+            <li><i class="icon iconfont icon-Instagram"></i><span>车品商城</span></li>
+            <li><i class="icon iconfont icon-wenjian"></i><span>洗车</span></li>
+            <li><i class="icon iconfont icon-quora"></i><span>违章代缴</span></li>
+            <li><i class="icon iconfont icon-zixun"></i><span>免费测评</span></li>
+            <li><i class="icon iconfont icon-address"></i><span>查周边</span></li>
+            <li><i class="icon iconfont icon-qiaquan"></i><span>车主卡</span></li>
+            <li><i class="icon iconfont icon-pingguo"></i><span>领券保养</span></li>
+            <li><i class="icon iconfont icon-gongzuo"></i><span>全部</span></li>
+        </ul>
+        <h1 class="title">限时抢购 <p class="pos"><span>13</span>:<span>13</span>:<span>13</span></p></h1>
+        <div id="wrapper">
+            <div id="scroller" class="dls">
+                <dl>
+                    <dt><img src="Content/img/img1.gif" alt=""></dt>
+                    <dd>
+                        <span class="hot"></span>
+                        <em>热销</em>
+                        <p>补胎工具简易套装</p>
+                        <p><span>￥9.9元</span><small>28元</small></p>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><img src="Content/img/img2.gif" alt=""></dt>
+                    <dd>
+                        <span class="hot"></span>
+                        <em>爆款</em>
+                        <p>补胎工具简易套装</p>
+                        <p><span>￥9.9元</span><small>28元</small></p>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><img src="Content/img/img1.gif" alt=""></dt>
+                    <dd>
+                        <span class="hot"></span>
+                        <em>热销</em>
+                        <p>补胎工具简易套装</p>
+                        <p><span>￥9.9元</span><small>28元</small></p>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+
+        <h1 class="title">活动专区 <p class="pos">更多活动<i class="icon iconfont icon-angle-right"></i></p></h1>
+        <div class="dls-bottom">
+            <dl>
+                <dd>
+                    <p>测身价炫富</p>
+                    <p class="orange">身价大PK</p>
+                </dd>
+                <dt><img src="Content/img/pic1.gif" alt=""></dt>
+            </dl>
+            <dl class="borders">
+                <dd>
+                    <p>全场0利率</p>
+                    <p class="orange">购车无压力</p>
+                </dd>
+                <dt><img src="Content/img/pic2.gif" alt=""></dt>
+            </dl>
+            <dl>
+                <dd>
+                    <p>好车分期</p>
+                    <p class="orange">定制专属方案</p>
+                </dd>
+                <dt><img src="Content/img/pic3.gif" alt=""></dt>
+            </dl>
+        </div>
+
+        <h1 class="title">猜你喜欢 <p class="pos">更多<i class="icon iconfont icon-angle-right"></i></p></h1>
+        <div class="likes">
+            <dl ng-repeat="key in tabInfo">
+                <dt><img ng-src="{{key.img}}" alt=""></dt>
+                <dd>
+                    <h2>{{key.name}}</h2>
+                    <h3>{{key.content}}</h3>
+                    <p><span>{{key.price}}</span><small>{{key.money}}</small></p>
+                </dd>
+            </dl>
+        </div>
+        <div class="more">点击加载更多……</div>
+    </div>
+    <div class="footer">
+        <a href=""><i class="icon iconfont icon-shouye"></i>首页</a>
+        <a href=""><i class="icon iconfont icon-line"></i>论坛</a>
+        <a href=""><i class="icon iconfont icon-crm17"></i>选车</a>
+        <a href=""><i class="icon iconfont icon-fangdajing"></i>发现</a>
+        <a href=""><i class="icon iconfont icon-QQ"></i>未登录</a>
+    </div>
+</div>
