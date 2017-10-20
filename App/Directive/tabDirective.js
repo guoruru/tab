@@ -18,14 +18,14 @@ app.directive('tabDirective', function () {
                 }
                 document.querySelector('.likes').innerHTML += str;
             })
-            if ($("#scroller>dl").length > 2) {
-                $('#scroller').width($('#scroller>dl').width() * $('#scroller>dl').length                       + 200);
-                var mySwiper = new IScroll('#wrapper',{
-                    mouseWheel: true,
-                    scrollX:true,
-                    click:true
-                })
-            }
+            //if ($("#scroller>dl").length > 2) {
+            //    $('#scroller').width($('#scroller>dl').width() * $('#scroller>dl').length                       + 200);
+            //    var mySwiper = new IScroll('#wrapper',{
+            //        mouseWheel: true,
+            //        scrollX:true,
+            //        click:true
+            //    })
+            //}
         }
     }
 })

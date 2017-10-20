@@ -146,9 +146,9 @@ html,body,.wrap{
 }
 .dls{
   display: flex;
-  overflow-y: scroll;
+  overflow-x: scroll;
   dl{
-    width: 40%;
+    width: 30%;
     flex-shrink: 0;
     border: 1px solid #EDEDED;
     margin: 10px;

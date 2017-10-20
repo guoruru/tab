@@ -137,16 +137,16 @@ html, body, .wrap {
     display: flex;
     flex-direction: column; }
     .icon-list li i.icon {
-      font-size: 1.4rem; }
+      font-size: 1.2rem; }
     .icon-list li span {
       line-height: 2rem; }
 
 .dls {
   display: flex;
-  oveflow-x:scroll;
+  overflow-y: scroll;
 }
   .dls dl {
-    width: 30%;
+    width: 40%;
     flex-shrink: 0;
     border: 1px solid #EDEDED;
     margin: 5px;
